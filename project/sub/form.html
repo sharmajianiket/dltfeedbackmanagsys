@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DLT Feedback Form</Form></title>
+    <link rel="shortcut icon" type="image/x-icon" href="icon.webp">
+</head>
+<body>
+    <header>
+        <h4>
+            <a href="../main.html">Home</a>
+        </h4>
+    </header>
+
+    <h1>Feedback Form (only filled by visitor)</h1>
+
+    <form>
+        <div>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" placeholder="First Name" required>
+        <label for="mname">Middle Name:</label>
+        <input type="text" name="mname" placeholder="Middle Name">
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" placeholder="Last Name" required>
+        </div><br>
+
+        <label for="email">Email Id</label>
+        <input type="email" name="email" placeholder="abc@xyz.com" required>
+        <label for="age">Age</label>
+        <input type="number" name="age" placeholder="22" required>
+        <label for="country">Country</label>
+        <input type="text" name="country" value="India" disabled>
+        <p>Gender</p>
+        <select name="gender">
+            <option>Male</option>
+            <option selected>Female</option>
+            <option>Prefer not to say</option>
+        </select>
+        <div>
+            <label for="visit">Is this your first visit to website ?</label></br>
+            <input type="radio" name="visit">Yes</br>
+            <input type="radio" name="visit">No</br>
+            <textarea name="message" style="height: 100px; width: 500px;" placeholder="Your First View"></textarea>
+        </div>
+        <div>
+            <label for="need">Were you able to find what you needed?</label></br>
+            <input type="radio" name="need">Yes</br>
+            <input type="radio" name="need">No</br>
+            <textarea name="message" style="height: 100px; width: 500px;" placeholder="If &quot;No&quot; what you are looking for"></textarea>
+        </div>
+        
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>
