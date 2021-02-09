@@ -1,0 +1,27 @@
+body{
+    background-color: #EF4D1F;
+}
+
+nav{
+    font-size: 75px;
+    text-align: center;
+    padding: 10px 0px 10px 20px;
+    border: 0px 0px 0px 0px;
+    word-spacing: 200px;
+}
+ a{
+     
+    text-decoration: none;
+}
+.change{
+    height: 50px;
+    width: 50px;
+}
+a:hover{
+    text-shadow: 2px 2px;
+    background-color: red;
+}
+.add{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
